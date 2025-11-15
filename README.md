@@ -39,7 +39,7 @@ pip install -r requirements.txt
 python train.py --dataset CUB --backbone vit-b/16 --batch_size 128 --epochs 100
 
 # Example evaluation command
-python evaluate.py --dataset AWA2 --checkpoint ./checkpoints/dkgzsl_best.pth
+python evaluate.py --dataset CUB --checkpoint ./checkpoints/dkgzsl_best.pth
 ```
 
 ## 📚 Citation
@@ -53,3 +53,8 @@ If you use this work, please cite our paper:
   publisher={IEEE}
 }
 ```
+
+## ⭐ Thanks
+
+Thank you sincerely for taking the time to review our manuscript amid your busy schedule. Your diligent efforts and professional insights are crucial to enhancing the quality of our research.
+We look forward to your thoughtful guidance and valuable suggestions. We will carefully consider every comment and make every effort to improve the manuscript, striving to present a more rigorous and high-quality research work. Once again, we would like to express our heartfelt gratitude for your contributions!
