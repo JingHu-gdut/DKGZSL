@@ -11,11 +11,17 @@ DKGZSL addresses the limitations of traditional multi-stage generative zero-shot
 - **Dynamic Knowledge Transfer Network (KTN)**: Converts semantic information into hierarchical visual knowledge, guiding the generator in real-time.
 - **Meta-Fusion Units (MFUs)**: Progressively transmits hierarchical knowledge to the generator, improving inter-class discriminability and intra-class compactness.
 
+<img width="1254" height="715" alt="image" src="https://github.com/user-attachments/assets/7bb4037f-ad27-466b-86d5-edb9585fecc8" />
+
+
 ## 📊 Performance
 Outperforms state-of-the-art methods on three benchmark datasets (AWA2, CUB, SUN) under both Conventional ZSL (CZSL) and Generalized ZSL (GZSL) settings, with ResNet-101 and ViT-B/16 backbones:
 - **CUB Dataset**: 85.2% (ResNet-101) / 87.2% (ViT-B/16) CZSL accuracy
 - **AWA2 Dataset**: 79.2% (ResNet-101) / 83.7% (ViT-B/16) CZSL accuracy
 - **SUN Dataset**: 67.7% (ResNet-101) / 73.1% (ViT-B/16) CZSL accuracy
+
+<img width="1228" height="914" alt="image" src="https://github.com/user-attachments/assets/283a0c91-14aa-42e0-a74d-0def664ba186" />
+
 
 ## 🛠️ Installation
 ```bash
@@ -41,17 +47,9 @@ If you use this work, please cite our paper:
 ```bibtex
 @article{DKGZSL2025,
   title={DKGZSL: Leveraging Dynamic Visual-Semantic Knowledge for Generative Zero-Shot Learning},
-  author={Hu, Jing and others},
-  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  author={},
+  journal={},
   year={2025},
   publisher={IEEE}
 }
 ```
-
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-**Repository Link**: [https://github.com/JingHu-gdut/DKGZSL](https://github.com/JingHu-gdut/DKGZSL)
-
-要不要我帮你生成一份**详细的使用教程文档**，包含数据集准备、超参数调优指南和常见问题排查？
