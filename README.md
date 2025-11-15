@@ -23,7 +23,6 @@ Outperforms state-of-the-art methods on three benchmark datasets (AWA2, CUB, SUN
   <thead>
     <tr style="background-color: #f0f0f0;">
       <th style="padding: 8px; border: 1px solid #ddd;">Methods</th>
-      <th style="padding: 8px; border: 1px solid #ddd;">Venue</th>
       <th style="padding: 8px; border: 1px solid #ddd;">AWA2 (Acc/H)</th>
       <th style="padding: 8px; border: 1px solid #ddd;">CUB (Acc/H)</th>
       <th style="padding: 8px; border: 1px solid #ddd;">SUN (Acc/H)</th>
@@ -32,14 +31,12 @@ Outperforms state-of-the-art methods on three benchmark datasets (AWA2, CUB, SUN
   <tbody>
     <tr style="background-color: #e6f7ff; font-weight: bold;">
       <td style="padding: 8px; border: 1px solid #ddd;">DKGZSL-res</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">--</td>
       <td style="padding: 8px; border: 1px solid #ddd;">79.2/72.9</td>
       <td style="padding: 8px; border: 1px solid #ddd;">85.2/75.4</td>
       <td style="padding: 8px; border: 1px solid #ddd;">67.7/44.3</td>
     </tr>
     <tr style="background-color: #fff2e6; font-weight: bold;">
       <td style="padding: 8px; border: 1px solid #ddd;">DKGZSL-vit</td>
-      <td style="padding: 8px; border: 1px solid #ddd;">--</td>
       <td style="padding: 8px; border: 1px solid #ddd;">83.7/81.4</td>
       <td style="padding: 8px; border: 1px solid #ddd;">87.2/76.2</td>
       <td style="padding: 8px; border: 1px solid #ddd;">73.1/51.0</td>
