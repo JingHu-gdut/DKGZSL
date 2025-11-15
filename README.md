@@ -24,3 +24,6 @@ experiments on three benchmark datasets demonstrate that
 DKGZSL achieves consistent state-of-the-art performance with
 both ResNet-101 and ViT-B/16 feature extractors. Comprehensive
 ablation studies further confirm the effectiveness and complementarity of each proposed component.
+
+<img width="1271" height="709" alt="image" src="https://github.com/user-attachments/assets/44b61eb9-1fe7-4329-b84c-857a1ba1a867" />
+
