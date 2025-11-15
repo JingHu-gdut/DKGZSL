@@ -1,4 +1,7 @@
-# DKGZSL: Leveraging Dynamic Knowledge-Guided Generative Zero-Shot Learning
+ #  <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/2b4624f9-8d79-4ca7-99e6-2cda3ce326de" /> DKGZSL: Leveraging Dynamic Knowledge-Guided Generative Zero-Shot Learning
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)  [![PyTorch](https://img.shields.io/badge/PyTorch-2.4.1-blue)](https://pytorch.org/) 
+If you find this project helpful, please don't forget to give it a ⭐ Star to show your support. Thank you!
 
 A novel generative zero-shot learning framework that leverages dynamic visual-semantic knowledge to unify feature synthesis and refinement, achieving state-of-the-art performance on benchmark datasets.
 
