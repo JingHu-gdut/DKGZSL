@@ -11,18 +11,14 @@ DKGZSL addresses the limitations of traditional multi-stage generative zero-shot
 - **Dynamic Knowledge Transfer Network (KTN)**: Converts semantic information into hierarchical visual knowledge, guiding the generator in real-time.
 - **Meta-Fusion Units (MFUs)**: Progressively transmits hierarchical knowledge to the generator, improving inter-class discriminability and intra-class compactness.
 
-## 📑 framework
+## 📑 Framework
+Architecture of our proposed DKGZSL for ZSL. DKGZSL consists of Semantic-Oriented Visual Refinement (SOVR) and a Dynamic KnowledgeGuided Generator Network (DKG<sup>2</sup>N). The Knowledge Transfer Network (KTN) in DKG2N converts semantic information into visual knowledge, aligning it with the reshaped visual features from the SOVR. Concurrently, the intermediate visual-semantic knowledge within the KTN is transmitted to the generator via the Meta-Fusion Unit (MFU).
 <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/7bb4037f-ad27-466b-86d5-edb9585fecc8" />
 
 
 ## 📊 Performance
 Outperforms state-of-the-art methods on three benchmark datasets (AWA2, CUB, SUN) under both Conventional ZSL (CZSL) and Generalized ZSL (GZSL) settings, with ResNet-101 and ViT-B/16 backbones:
-- **CUB Dataset**: 85.2% (ResNet-101) / 87.2% (ViT-B/16) CZSL accuracy
-- **AWA2 Dataset**: 79.2% (ResNet-101) / 83.7% (ViT-B/16) CZSL accuracy
-- **SUN Dataset**: 67.7% (ResNet-101) / 73.1% (ViT-B/16) CZSL accuracy
-
 <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/283a0c91-14aa-42e0-a74d-0def664ba186" />
-
 
 ## 🛠️ Installation
 ```bash
@@ -37,10 +33,8 @@ pip install -r requirements.txt
 ## 📈 Usage
 ```python
 # Example training command
-python train.py --dataset CUB --backbone vit-b/16 --batch_size 128 --epochs 100
+python CUB.py --dataset CUB --backbone vit-b/16 --batch_size 128 --epochs 100
 
-# Example evaluation command
-python evaluate.py --dataset CUB --checkpoint ./checkpoints/dkgzsl_best.pth
 ```
 
 ## 📚 Citation
@@ -49,7 +43,7 @@ If you use this work, please cite our paper:
 @article{DKGZSL2025,
   title={DKGZSL: Leveraging Dynamic Visual-Semantic Knowledge for Generative Zero-Shot Learning},
   author={},
-  journal={},
+  journal={tcsvt},
   year={2025},
   publisher={IEEE}
 }
