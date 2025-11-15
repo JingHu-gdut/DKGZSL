@@ -1,4 +1,4 @@
-# DKGZSL: Dynamic Knowledge-Guided Generative Zero-Shot Learning
+# DKGZSL: Leveraging Dynamic Knowledge-Guided Generative Zero-Shot Learning
 
 A novel generative zero-shot learning framework that leverages dynamic visual-semantic knowledge to unify feature synthesis and refinement, achieving state-of-the-art performance on benchmark datasets.
 
