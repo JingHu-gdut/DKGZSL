@@ -69,8 +69,8 @@ If you use this work, please cite our paper:
 ```bibtex
 @article{DKGZSL2025,
   title={DKGZSL: Leveraging Dynamic Visual-Semantic Knowledge for Generative Zero-Shot Learning},
-  author={},
-  journal={tcsvt},
+  author={Jing Hu, Min Meng, Jigang Liu, Jun Yu, and Jigang Wu},
+  journal={aaai},
   year={2025},
   publisher={IEEE}
 }
