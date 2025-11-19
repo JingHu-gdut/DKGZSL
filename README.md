@@ -1,4 +1,4 @@
- #  <img alt="image" src="https://github.com/user-attachments/assets/2b4624f9-8d79-4ca7-99e6-2cda3ce326de" style="width:40px;height:30px;" /> DKGZSL: Leveraging Dynamic Knowledge-Guided Generative Zero-Shot Learning
+ #  <img alt="image" src="https://github.com/user-attachments/assets/2b4624f9-8d79-4ca7-99e6-2cda3ce326de" style="width:40px;height:30px;" /> DKGZSL: Leveraging Dynamic Visual-Semantic Knowledge for Generative Zero-Shot Learning
 
 A novel generative zero-shot learning framework that leverages dynamic visual-semantic knowledge to unify feature synthesis and refinement, achieving state-of-the-art performance on benchmark datasets.
 
@@ -15,7 +15,7 @@ DKGZSL addresses the limitations of traditional multi-stage generative zero-shot
 - **Meta-Fusion Units (MFUs)**: Progressively transmits hierarchical knowledge to the generator, improving inter-class discriminability and intra-class compactness.
 
 ## 📑 Framework
-Architecture of our proposed DKGZSL for ZSL. DKGZSL consists of Semantic-Oriented Visual Refinement (SOVR) and a Dynamic KnowledgeGuided Generator Network (DKG<sup>2</sup>N). The Knowledge Transfer Network (KTN) in DKG2N converts semantic information into visual knowledge, aligning it with the reshaped visual features from the SOVR. Concurrently, the intermediate visual-semantic knowledge within the KTN is transmitted to the generator via the Meta-Fusion Unit (MFU).
+Architecture of our proposed DKGZSL for ZSL. DKGZSL consists of Semantic-Oriented Visual Refinement (SOVR) and a Dynamic Knowledge Guided Generator Network (DKG<sup>2</sup>N). The Knowledge Transfer Network (KTN) in DKG2N converts semantic information into visual knowledge, aligning it with the reshaped visual features from the SOVR. Concurrently, the intermediate visual-semantic knowledge within the KTN is transmitted to the generator via the Meta-Fusion Unit (MFU).
 <img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/7bb4037f-ad27-466b-86d5-edb9585fecc8" />
 
 
